@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
+import Head from "next/head";
 
-const montserrat = Montserrat({
+const poppins = Poppins({
   weight: ["300", "400", "500", "600", "700", "800", "900"],
   subsets: ["latin"],
 });
@@ -10,7 +11,21 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Yoga Febriatala",
   description: "Personal Website",
-  icons: "/img/favicon.png",
+  authors: [
+    {
+      name: "Yoga Febriatala",
+      url: "/",
+    },
+  ],
+  icons: {
+    icon: "/img/logo.png",
+  },
+  openGraph: {
+    title: "Yoga Febriatala",
+    description: "Personal Website | Yoga Febriatala",
+    siteName: "Yoga Febriatala",
+    images: "/img/cover-share.png",
+  },
 };
 
 export default function RootLayout({
@@ -20,7 +35,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${montserrat.className} bg-hitam`}>{children}</body>
+      <body className={`${poppins.className} bg-bg-image`}>{children}</body>
     </html>
   );
 }

@@ -8,8 +8,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import NavTop from "../../components/NavTop";
-
-import Btn from "../../components/Btn";
 import Why from "../../components/Why";
 import NavBottom from "../../components/NavBottom";
 

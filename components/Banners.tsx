@@ -29,13 +29,13 @@ export default function Banners() {
               <p className="text-secondary font-normal text-lg mb-10 leading-9">
                 I'm from Bogor, Indonesia and i have been interested in web
                 development since 2017. I started working as a web developer at{" "}
-                <span>
+                <span className="underline">
                   <a href="#" className="text-white">
                     BMBJ
                   </a>
                 </span>{" "}
                 in 2021 and
-                <span>
+                <span className="underline">
                   {" "}
                   <a href="#" className="text-white">
                     Jurnalistika
@@ -59,7 +59,9 @@ export default function Banners() {
                   Email Me
                 </Link>
                 <Link
-                  href={""}
+                  href={
+                    "https://drive.google.com/file/d/14t4c_IymColqATpqSsS8Nrm_t9E-VgzS/view?usp=sharing"
+                  }
                   className="font-medium text-white text-base flex gap-3 hover:text-secondary"
                 >
                   <Image

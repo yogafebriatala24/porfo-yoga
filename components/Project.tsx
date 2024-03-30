@@ -28,6 +28,7 @@ export const Project = (props: Props) => {
           <h1 className="text-white font-bold text-4xl max-md:text-2xl">
             My Project
           </h1>
+
           <hr className="w-48 bg-white mt-1 md:mb-12 mb-5 mx-0" />
           {list.map((datas) => {
             return (
