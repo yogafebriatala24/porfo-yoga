@@ -5,7 +5,7 @@ export default function NavBottom() {
   return (
     <>
       <div className="md:hidden fixed bottom-0 left-0 z-50 w-full h-16 rounded-t-lg shadow-secondary shadow bg-gelap flex justify-between text-center px-4 py-3">
-        <Link href={""}>
+        <Link href={"/about"}>
           <Image
             src={"/img/logo.png"}
             alt=""
@@ -15,7 +15,7 @@ export default function NavBottom() {
           />
         </Link>
 
-        <Link href={""}>
+        <Link href={"/"}>
           <Image
             src={"/icon/stack.svg"}
             alt=""
@@ -27,7 +27,7 @@ export default function NavBottom() {
           <div className="text-white text-sm hover:text-secondary">Project</div>
         </Link>
 
-        <Link href={""}>
+        <Link href={"https://wa.me/+6285693941455"}>
           <Image
             src={"/icon/wa.svg"}
             alt=""
@@ -46,10 +46,10 @@ export default function NavBottom() {
             For business inquiry please send email to febriatala24@gmail.com
           </div>
           <div className="flex gap-10 pt-10">
-            <Link href={""}>
+            <Link href={"https://instagram.com/yogafebriatala"}>
               <Image src={"./icon/ig.svg"} alt="ig" width={40} height={40} />
             </Link>
-            <Link href={""}>
+            <Link href={"https://github.com/yogafebriatala24"}>
               <Image
                 src={"./icon/github.svg"}
                 alt="ig"
@@ -57,13 +57,16 @@ export default function NavBottom() {
                 height={40}
               />
             </Link>
-            <Link href={""}>
+            <Link href={"https://www.linkedin.com/in/yoga-febriatala/"}>
               <Image
                 src={"./icon/linkedin.svg"}
                 alt="ig"
                 width={40}
                 height={40}
               />
+            </Link>
+            <Link href={"https://wa.me/+6285693941455"}>
+              <Image src={"./icon/wa.svg"} alt="ig" width={40} height={40} />
             </Link>
           </div>
         </div>

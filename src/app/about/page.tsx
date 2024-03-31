@@ -9,7 +9,7 @@ export default function page() {
     <>
       <NavTop />
       <div
-        className="sm:container text-center max-md:mb-24 px-4"
+        className="sm:container text-center max-md:mb-24 mb-10"
         data-aos="fade-up"
       >
         <div className="md:hidden w-full">
@@ -23,7 +23,7 @@ export default function page() {
             priority={true}
           />
         </div>
-        <div className="md:px-20 mt-10 ">
+        <div className="md:px-20 mt-4 md:mt-10 max-md:px-4">
           <Image
             className="mx-auto mb-10 max-md:hidden"
             src={"/img/profile.png"}
@@ -53,7 +53,7 @@ export default function page() {
                 <p className="mx-auto text-white text-lg font-medium">
                   Experience
                 </p>
-                <p className="mx-auto text-secondary text-md font-normal">
+                <p className="mx-auto text-secondary text-sm font-normal">
                   2+ years
                 </p>
               </div>
@@ -70,13 +70,13 @@ export default function page() {
                 <p className="mx-auto text-white text-lg font-medium">
                   Project
                 </p>
-                <p className="mx-auto text-secondary text-md font-normal">
+                <p className="mx-auto text-secondary text-sm font-normal">
                   10+ Completed Projects
                 </p>
               </div>
             </div>
           </div>
-          <h1 className="text-white text-2xl font-bold mt-10">Skills</h1>
+          <h1 className="text-white text-2xl font-bold mt-10">My Skills</h1>
           <div className="flex flex-wrap gap-5 mt-4 place-content-center">
             <Image src={"/icon/html.svg"} alt="js" width={40} height={90} />
             <Image src={"/icon/css.svg"} alt="js" width={40} height={90} />

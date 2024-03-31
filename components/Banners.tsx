@@ -53,7 +53,7 @@ export default function Banners() {
               </a>
               <div className="flex items-center gap-5 max-lg:hidden">
                 <Link
-                  href="/"
+                  href="mailto:febriatala24@gmail.com"
                   className="text-base no-underline font-medium bg-green-600 hover:bg-green-500 py-3 px-8 rounded-md text-white"
                 >
                   Email Me

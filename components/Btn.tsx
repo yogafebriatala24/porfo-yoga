@@ -11,7 +11,7 @@ export default function Btn() {
         </div>
         <div className="md:col-span-6 md:ms-auto max-md:text-center pt-1">
           <Link
-            href="/"
+            href="mailto:febriatala24@gmail.com"
             className="ms-auto bg-green-600 border border-green-600 hover:bg-green-500 hover:border-green-500 font-medium text-white px-4 py-2 rounded-md mx-4"
           >
             Email Me
