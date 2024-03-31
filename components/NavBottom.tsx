@@ -4,12 +4,12 @@ import Link from "next/link";
 export default function NavBottom() {
   return (
     <>
-      <div className="md:hidden fixed bottom-0 left-0 z-50 w-full h-16 rounded-t-lg shadow-secondary shadow bg-gelap flex justify-between text-center px-4 py-3">
+      <div className="md:hidden fixed bottom-0 left-0 z-50 w-full h-16 rounded-t-lg shadow-secondary shadow bg-gelap flex justify-between text-center mx-auto px-4 py-3">
         <Link href={"/about"}>
           <Image
             src={"/img/logo.png"}
             alt=""
-            width={47}
+            width={43}
             height={24}
             quality={100}
           />
@@ -19,24 +19,22 @@ export default function NavBottom() {
           <Image
             src={"/icon/stack.svg"}
             alt=""
-            width={30}
+            width={43}
             height={24}
             quality={100}
             className="mx-auto"
           />
-          <div className="text-white text-sm hover:text-secondary">Project</div>
         </Link>
 
         <Link href={"https://wa.me/+6285693941455"}>
           <Image
             src={"/icon/wa.svg"}
             alt=""
-            width={30}
+            width={43}
             height={24}
             quality={100}
             className="mx-auto"
           />
-          <p className="text-white text-sm">Whatsapp</p>
         </Link>
       </div>
       <div className="w-full bg-gelap max-md:hidden py-10">

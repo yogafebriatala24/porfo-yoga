@@ -23,7 +23,7 @@ export default function page() {
             priority={true}
           />
         </div>
-        <div className="md:px-20 mt-4 md:mt-10 max-md:px-4">
+        <div className="md:px-20 mt-4 md:mt-10 px-4 mx-auto">
           <Image
             className="mx-auto mb-10 max-md:hidden"
             src={"/img/profile.png"}
@@ -53,7 +53,7 @@ export default function page() {
                 <p className="mx-auto text-white text-lg font-medium">
                   Experience
                 </p>
-                <p className="mx-auto text-secondary text-sm font-normal">
+                <p className="mx-auto text-secondary text-sm font-normal max-md:text-xs">
                   2+ years
                 </p>
               </div>
@@ -70,7 +70,7 @@ export default function page() {
                 <p className="mx-auto text-white text-lg font-medium">
                   Project
                 </p>
-                <p className="mx-auto text-secondary text-sm font-normal">
+                <p className="mx-auto text-secondary text-sm max-md:text-xs font-normal">
                   10+ Completed Projects
                 </p>
               </div>
@@ -78,24 +78,29 @@ export default function page() {
           </div>
           <h1 className="text-white text-2xl font-bold mt-10">My Skills</h1>
           <div className="flex flex-wrap gap-5 mt-4 place-content-center">
-            <Image src={"/icon/html.svg"} alt="js" width={40} height={90} />
-            <Image src={"/icon/css.svg"} alt="js" width={40} height={90} />
+            <Image src={"/icon/html.svg"} alt="html" width={40} height={90} />
+            <Image src={"/icon/css.svg"} alt="css" width={40} height={90} />
             <Image src={"/icon/js.svg"} alt="js" width={40} height={90} />
-            <Image src={"/icon/ts.svg"} alt="js" width={40} height={90} />
-            <Image src={"/icon/php.svg"} alt="js" width={40} height={90} />
-            <Image src={"/icon/tailwind.svg"} alt="js" width={40} height={90} />
-            <Image src={"/icon/react.svg"} alt="js" width={40} height={90} />
+            <Image src={"/icon/ts.svg"} alt="ts" width={40} height={90} />
+            <Image src={"/icon/php.svg"} alt="php" width={40} height={90} />
+            <Image src={"/icon/tailwind.svg"} alt="tl" width={40} height={90} />
+            <Image src={"/icon/react.svg"} alt="react" width={40} height={90} />
             <Image
               src={"/icon/bootstrap.svg"}
-              alt="js"
+              alt="bs"
               width={40}
               height={90}
             />
-            <Image src={"/icon/Laravel.svg"} alt="js" width={40} height={90} />
-            <Image src={"/icon/node.svg"} alt="js" width={40} height={90} />
-            <Image src={"/icon/next.svg"} alt="js" width={40} height={90} />
-            <Image src={"/icon/figma.png"} alt="js" width={40} height={90} />
-            <Image src={"/icon/ai.png"} alt="js" width={40} height={90} />
+            <Image
+              src={"/icon/Laravel.svg"}
+              alt="laravel"
+              width={40}
+              height={90}
+            />
+            <Image src={"/icon/node.svg"} alt="node" width={40} height={90} />
+            <Image src={"/icon/next.svg"} alt="next" width={40} height={90} />
+            <Image src={"/icon/figma.svg"} alt="figma" width={40} height={90} />
+            <Image src={"/icon/ai.png"} alt="ai" width={40} height={90} />
             <Image src={"/icon/ps.png"} alt="js" width={40} height={90} />
             <Image src={"/icon/github.svg"} alt="js" width={40} height={90} />
             <Image src={"/icon/git.svg"} alt="js" width={40} height={90} />

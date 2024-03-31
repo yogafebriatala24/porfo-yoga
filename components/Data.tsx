@@ -10,7 +10,7 @@ export interface Datas {
     | "/img/game.png";
   desc1: string;
   desc2: string;
-  logo1: "/icon/figma.png" | "/icon/laravel.svg" | "/icon/ts.svg";
+  logo1: "/icon/figma.svg" | "/icon/Laravel.svg" | "/icon/ts.svg";
   logo2:
     | "/icon/html.svg"
     | "/icon/bootstrap.svg"
@@ -20,7 +20,7 @@ export interface Datas {
     | "/icon/react.svg"
     | "/icon/vue.svg"
     | "/icon/ps.png"
-    | "/icon/figma.png"
+    | "/icon/figma.svg"
     | "/icon/bootstrap.svg";
   btn1: string;
   btn2: string;
@@ -38,7 +38,7 @@ export const ListData: Datas[] = [
       "The Food Market application is a mobile-based application that provides digital-based food ordering services from MSMEs in Indonesia.",
     desc2:
       "In creating the UI design for this food market application, I used several tools, including:",
-    logo1: "/icon/figma.png",
+    logo1: "/icon/figma.svg",
     logo2: "/icon/ai.png",
     logo3: "/icon/ps.png",
     btn1: "View Prototype",
@@ -54,7 +54,7 @@ export const ListData: Datas[] = [
       "This responsive online shop website provides many features, including: login & registration, financial reports, transactions, etc.",
     desc2:
       "In building this online shop website, I used several technologies, including:",
-    logo1: "/icon/laravel.svg",
+    logo1: "/icon/Laravel.svg",
     logo2: "/icon/bootstrap.svg",
     logo3: "/icon/vue.svg",
     btn1: "Source Code",
@@ -75,7 +75,7 @@ export const ListData: Datas[] = [
     logo3: "/icon/bootstrap.svg",
     btn1: "Source Code",
     btn2: "Details",
-    btnlink: "https://github.com/yogafebriatala24/website-toko-online",
+    btnlink: "https://github.com/yogafebriatala24/Voucher-Game",
   },
   {
     id: 4,
@@ -86,11 +86,11 @@ export const ListData: Datas[] = [
       "This responsive travel website provides many features, including: login & registration, financial reports, transactions, etc.",
     desc2:
       "In building this travel website, I used several technologies, including:",
-    logo1: "/icon/laravel.svg",
+    logo1: "/icon/Laravel.svg",
     logo2: "/icon/bootstrap.svg",
-    logo3: "/icon/figma.png",
+    logo3: "/icon/figma.svg",
     btn1: "Source Code",
     btn2: "Details",
-    btnlink: "https://github.com/yogafebriatala24/website-toko-online",
+    btnlink: "https://github.com/yogafebriatala24/Yogsapp",
   },
 ];

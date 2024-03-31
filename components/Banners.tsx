@@ -45,12 +45,12 @@ export default function Banners() {
                 development team since 2023 and currently I looking forward to
                 collaborating with you!
               </p>
-              <a
-                href="#"
+              <Link
+                href="https://drive.google.com/file/d/14t4c_IymColqATpqSsS8Nrm_t9E-VgzS/view?usp=sharing"
                 className="text-base text-center no-underline font-medium bg-green-600 hover:bg-green-500 py-4 px-8 rounded-md text-white lg:hidden"
               >
                 Download CV
-              </a>
+              </Link>
               <div className="flex items-center gap-5 max-lg:hidden">
                 <Link
                   href="mailto:febriatala24@gmail.com"
