@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from "react";
-// import Image from "next/image";
 import Banners from "../../components/Banners";
 import { Datas, ListData } from "../../components/Data";
 import { Project } from "../../components/Project";

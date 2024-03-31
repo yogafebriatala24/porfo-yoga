@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import Link from "next/link";
 import NavTop from "../../../components/NavTop";
 import NavBottom from "../../../components/NavBottom";
 
@@ -32,7 +31,7 @@ export default function page() {
             quality={100}
             alt="Yoga"
           />
-          <h1 className="text-white text-2xl font-bold">About Me</h1>
+          <div className="text-white text-2xl font-bold">About Me</div>
           <p className="text-secondary font-normal mt-4">
             Hello, my name is Yoga Febriatala. I am an informatics engineering
             student specializing in website development. Besides being active in
@@ -76,7 +75,7 @@ export default function page() {
               </div>
             </div>
           </div>
-          <h1 className="text-white text-2xl font-bold mt-10">My Skills</h1>
+          <div className="text-white text-2xl font-bold mt-10">My Skills</div>
           <div className="flex flex-wrap gap-5 mt-4 place-content-center">
             <Image src={"/icon/html.svg"} alt="html" width={40} height={90} />
             <Image src={"/icon/css.svg"} alt="css" width={40} height={90} />

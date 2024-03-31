@@ -9,7 +9,10 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Yoga Febriatala",
-  description: "Personal Website",
+  description:
+    "The nature of a young man is freedom, freedom of ideas, creativity and work for the homeland",
+  keywords: "Yoga Febriatala",
+
   authors: [
     {
       name: "Yoga Febriatala",
@@ -34,6 +37,7 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
+    card: "summary_large_image",
     title: "Yoga Febriatala | Personal Website",
     description:
       "The nature of a young man is freedom, freedom of ideas, creativity and work for the homeland",

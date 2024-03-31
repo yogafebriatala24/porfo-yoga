@@ -8,7 +8,7 @@ export default function NavBottom() {
         <Link href={"/about"}>
           <Image
             src={"/img/logo.png"}
-            alt=""
+            alt="logo"
             width={43}
             height={24}
             quality={100}
@@ -18,7 +18,7 @@ export default function NavBottom() {
         <Link href={"/"}>
           <Image
             src={"/icon/stack.svg"}
-            alt=""
+            alt="stack"
             width={43}
             height={24}
             quality={100}
@@ -29,7 +29,7 @@ export default function NavBottom() {
         <Link href={"https://wa.me/+6285693941455"}>
           <Image
             src={"/icon/wa.svg"}
-            alt=""
+            alt="wa"
             width={43}
             height={24}
             quality={100}
@@ -50,7 +50,7 @@ export default function NavBottom() {
             <Link href={"https://github.com/yogafebriatala24"}>
               <Image
                 src={"./icon/github.svg"}
-                alt="ig"
+                alt="github"
                 width={40}
                 height={40}
               />
@@ -58,13 +58,13 @@ export default function NavBottom() {
             <Link href={"https://www.linkedin.com/in/yoga-febriatala/"}>
               <Image
                 src={"./icon/linkedin.svg"}
-                alt="ig"
+                alt="linkedin"
                 width={40}
                 height={40}
               />
             </Link>
             <Link href={"https://wa.me/+6285693941455"}>
-              <Image src={"./icon/wa.svg"} alt="ig" width={40} height={40} />
+              <Image src={"./icon/wa.svg"} alt="wa" width={40} height={40} />
             </Link>
           </div>
         </div>

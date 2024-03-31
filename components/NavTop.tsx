@@ -38,7 +38,7 @@ export default function NavTop() {
                   : "flex gap-3 items-center"
               }`}
             >
-              <Image src={"/img/logo.png"} width={42} height={40} alt="y" />
+              <Image src={"/img/logo.png"} width={42} height={40} alt="logo" />
               <p className="text-white font-semibold text-sm">yogafebriatala</p>
             </Link>
 

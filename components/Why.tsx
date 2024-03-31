@@ -45,7 +45,7 @@ export default function Why() {
                   src={"/img/Collab.png"}
                   width={110}
                   height={90}
-                  alt="comm"
+                  alt="coll"
                 />
               </div>
               <div className="text-white font-bold text-xl pt-6 justify-center text-center">
@@ -67,7 +67,7 @@ export default function Why() {
                   src={"/img/time.png"}
                   width={90}
                   height={90}
-                  alt="comm"
+                  alt="time"
                 />
               </div>
               <div className=" text-white font-bold text-xl pt-6 text-center">
