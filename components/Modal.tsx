@@ -25,7 +25,6 @@ export const Modal = (props: Props) => {
               <Image
                 width={2000}
                 height={500}
-                quality={100}
                 alt={"d"}
                 className="object-contain rounded-lg "
                 src={data.image}

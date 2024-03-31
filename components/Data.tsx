@@ -2,12 +2,26 @@ export interface Datas {
   id: number;
   title: string;
   name: string;
-  image: "/img/Toko.png" | "/img/Food.png" | "/img/Kuak.pmg";
+  image:
+    | "/img/Toko.png"
+    | "/img/Food.png"
+    | "/img/Kuak.pmg"
+    | "/img/travel.png"
+    | "/img/game.png";
   desc1: string;
   desc2: string;
-  logo1: "/icon/figma.png" | "/icon/ai.png" | "/icon/ps.png";
-  logo2: "/icon/figma.png" | "/icon/ai.png" | "/icon/ps.png";
-  logo3: "/icon/figma.png" | "/icon/ai.png" | "/icon/ps.png";
+  logo1: "/icon/figma.png" | "/icon/laravel.svg" | "/icon/ts.svg";
+  logo2:
+    | "/icon/html.svg"
+    | "/icon/bootstrap.svg"
+    | "/icon/ai.png"
+    | "/icon/next.svg";
+  logo3:
+    | "/icon/react.svg"
+    | "/icon/vue.svg"
+    | "/icon/ps.png"
+    | "/icon/figma.png"
+    | "/icon/bootstrap.svg";
   btn1: string;
   btn2: string;
   btnlink: string;
@@ -33,15 +47,48 @@ export const ListData: Datas[] = [
   },
   {
     id: 2,
-    title:
-      "Create an online shop website for Yakusa.Comp using Laravel and Boostrap.",
-    name: "Yakusa Store",
+    title: "Create an online shop website using Laravel.",
+    name: "Online Shop",
     image: "/img/Toko.png",
-    desc1: "lorem",
-    desc2: "lore,",
-    logo1: "/icon/figma.png",
-    logo2: "/icon/ai.png",
-    logo3: "/icon/ps.png",
+    desc1:
+      "This responsive online shop website provides many features, including: login & registration, financial reports, transactions, etc.",
+    desc2:
+      "In building this online shop website, I used several technologies, including:",
+    logo1: "/icon/laravel.svg",
+    logo2: "/icon/bootstrap.svg",
+    logo3: "/icon/vue.svg",
+    btn1: "Source Code",
+    btn2: "Details",
+    btnlink: "https://github.com/yogafebriatala24/website-toko-online",
+  },
+  {
+    id: 3,
+    title: "Create an Top Up Game website using NextJS.",
+    name: "Top Up Game",
+    image: "/img/game.png",
+    desc1:
+      "This responsive Typescript website provides many features, including: login & registration, financial reports, transactions, etc.",
+    desc2:
+      "In building this Top Up Game website, I used several technologies, including:",
+    logo1: "/icon/ts.svg",
+    logo2: "/icon/next.svg",
+    logo3: "/icon/bootstrap.svg",
+    btn1: "Source Code",
+    btn2: "Details",
+    btnlink: "https://github.com/yogafebriatala24/website-toko-online",
+  },
+  {
+    id: 4,
+    title: "Create an travel website using Laravel.",
+    name: "Travel",
+    image: "/img/travel.png",
+    desc1:
+      "This responsive travel website provides many features, including: login & registration, financial reports, transactions, etc.",
+    desc2:
+      "In building this travel website, I used several technologies, including:",
+    logo1: "/icon/laravel.svg",
+    logo2: "/icon/bootstrap.svg",
+    logo3: "/icon/figma.png",
     btn1: "Source Code",
     btn2: "Details",
     btnlink: "https://github.com/yogafebriatala24/website-toko-online",

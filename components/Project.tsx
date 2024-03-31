@@ -43,8 +43,7 @@ export const Project = (props: Props) => {
                       src={datas.image}
                       width={1800}
                       height={1800}
-                      quality={100}
-                      alt={""}
+                      alt={"project"}
                       className="rounded-md"
                       onClick={() => viewModal(datas)}
                     />
@@ -59,7 +58,7 @@ export const Project = (props: Props) => {
                           src={"/icon/unduh.svg"}
                           width={16}
                           height={16}
-                          alt=""
+                          alt="unduh"
                         />
                         {datas.btn1}
                       </Link>
