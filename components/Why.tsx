@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Why() {
   return (
     <>
-      <div className="sm:container mb-24 px-4">
+      <div className="sm:container mb-24 mx-auto px-2">
         <div className="lg:px-20 pt-14  ">
           <p
             className="text-white text-center font-semibold text-3xl"

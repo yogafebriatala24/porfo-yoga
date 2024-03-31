@@ -24,7 +24,7 @@ export const Project = (props: Props) => {
   return (
     <>
       <div className="sm:container lg:pt-32 pt-10">
-        <div className="lg:px-20 px-4" data-aos="fade-up">
+        <div className="lg:px-20 px-4 mx-auto" data-aos="fade-up">
           <h1 className="text-white font-bold text-4xl max-md:text-2xl">
             My Project
           </h1>

@@ -11,14 +11,14 @@ export default function Banners() {
             src={"/img/Foto.png"}
             width={400}
             height={400}
-            className="mx-auto px-1 py-1 mb-4"
+            className="mx-auto py-1 mb-4"
             alt="yoga"
             quality={100}
             priority={true}
           />
         </div>
         <div className="flex flex-wrap lg:px-20" data-aos="fade-up">
-          <div className="self-center lg:w-1/2 w-full px-2">
+          <div className="self-center lg:w-1/2 w-full mx-auto px-2">
             <div className="max-md:text-center">
               <h1 className="text-green-600 font-bold text-4xl max-md:text-2xl">
                 Hi, i'm Yoga Febriatala
