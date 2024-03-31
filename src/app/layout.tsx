@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
-import Head from "next/head";
 
 const poppins = Poppins({
   weight: ["300", "400", "500", "600", "700", "800", "900"],
@@ -21,10 +20,32 @@ export const metadata: Metadata = {
     icon: "/img/logo.png",
   },
   openGraph: {
-    title: "Yoga Febriatala",
-    description: "Personal Website | Yoga Febriatala",
+    title: "Yoga Febriatala | Personal Website",
+    description:
+      "The nature of a young man is freedom, freedom of ideas, creativity and work for the homeland",
     siteName: "Yoga Febriatala",
-    images: "/img/cover-share.png",
+    images: [
+      {
+        url: "/img/cover-share.png",
+        width: 200,
+        height: 200,
+        alt: "yoga",
+      },
+    ],
+  },
+  twitter: {
+    title: "Yoga Febriatala | Personal Website",
+    description:
+      "The nature of a young man is freedom, freedom of ideas, creativity and work for the homeland",
+    creator: "Yoga Febriatala",
+    images: [
+      {
+        url: "/img/cover-share.png",
+        width: 1200,
+        height: 630,
+        alt: "profile-yoga",
+      },
+    ],
   },
 };
 
