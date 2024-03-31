@@ -23,7 +23,11 @@ export default function NavTop() {
   }, []);
   return (
     <>
-      <div className={header ? "fixed z-50 bg-gelap w-full" : "bg-transparent"}>
+      <div
+        className={
+          header ? "fixed z-50 bg-gelap w-full top-0" : "bg-transparent"
+        }
+      >
         <div className="sm:container pt-5 max-md:hidden py-4">
           <div className="flex items-center gap-10">
             <Link
