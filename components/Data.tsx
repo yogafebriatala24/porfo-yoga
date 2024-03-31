@@ -14,12 +14,12 @@ export interface Datas {
   logo2:
     | "/icon/html.svg"
     | "/icon/bootstrap.svg"
-    | "/icon/ai.png"
+    | "/icon/ai.svg"
     | "/icon/next.svg";
   logo3:
     | "/icon/react.svg"
     | "/icon/vue.svg"
-    | "/icon/ps.png"
+    | "/icon/ps.svg"
     | "/icon/figma.svg"
     | "/icon/bootstrap.svg";
   btn1: string;
@@ -39,8 +39,8 @@ export const ListData: Datas[] = [
     desc2:
       "In creating the UI design for this food market application, I used several tools, including:",
     logo1: "/icon/figma.svg",
-    logo2: "/icon/ai.png",
-    logo3: "/icon/ps.png",
+    logo2: "/icon/ai.svg",
+    logo3: "/icon/ps.svg",
     btn1: "View Prototype",
     btn2: "Details",
     btnlink: "#",
