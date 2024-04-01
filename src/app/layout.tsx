@@ -41,9 +41,7 @@ export const metadata: Metadata = {
     siteName: "Yoga Febriatala",
     images: [
       {
-        url: "/img/cover-share.png",
-        width: 200,
-        height: 200,
+        url: "/apple-icon.png",
         alt: "yoga",
       },
     ],
