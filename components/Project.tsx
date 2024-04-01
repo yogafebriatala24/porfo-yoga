@@ -41,8 +41,9 @@ export const Project = (props: Props) => {
                   <div className="rounded-md">
                     <Image
                       src={datas.image}
-                      width={1800}
-                      height={1800}
+                      width={1200}
+                      height={630}
+                      loading="lazy"
                       alt={"project"}
                       className="rounded-md"
                       onClick={() => viewModal(datas)}

@@ -13,7 +13,6 @@ export default function Banners() {
             height={400}
             className="mx-auto py-1 mb-4"
             alt="yoga"
-            quality={100}
             priority={true}
           />
         </div>
@@ -82,7 +81,6 @@ export default function Banners() {
                 src={"/img/profile.png"}
                 width={300}
                 height={300}
-                quality={100}
                 alt="Yoga"
               />
             </div>

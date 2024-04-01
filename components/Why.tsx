@@ -23,6 +23,7 @@ export default function Why() {
                   width={90}
                   height={90}
                   alt="comm"
+                  loading="lazy"
                 />
               </div>
               <h3 className=" text-white font-bold text-xl pt-6 text-center">
@@ -46,6 +47,7 @@ export default function Why() {
                   width={110}
                   height={90}
                   alt="coll"
+                  loading="lazy"
                 />
               </div>
               <h3 className="text-white font-bold text-xl pt-6 justify-center text-center">
@@ -68,6 +70,7 @@ export default function Why() {
                   width={90}
                   height={90}
                   alt="time"
+                  loading="lazy"
                 />
               </div>
               <h3 className=" text-white font-bold text-xl pt-6 text-center">

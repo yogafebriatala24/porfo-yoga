@@ -8,13 +8,20 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://yogafebriatala.com"),
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-US",
+    },
+  },
   title: {
     default: "Yoga Febriatala | Personal Website",
     template: "%s - Yoga Febriatala",
   },
 
   description:
-    "The nature of a young man is freedom, freedom of ideas, creativity and work for the homeland",
+    "Hi, i'm Yoga Febriatala Fullstack Developer. I'm from Bogor Indonesia, i have experience more than 2 years",
   keywords: "Yoga Febriatala",
 
   authors: [
@@ -25,11 +32,12 @@ export const metadata: Metadata = {
   ],
   icons: {
     icon: "/img/logo.png",
+    apple: "/icon/apple.png",
   },
   openGraph: {
     title: "Yoga Febriatala | Personal Website",
     description:
-      "The nature of a young man is freedom, freedom of ideas, creativity and work for the homeland",
+      "Hi, i'm Yoga Febriatala Fullstack Developer. I'm from Bogor Indonesia, i have experience more than 2 years ",
     siteName: "Yoga Febriatala",
     images: [
       {

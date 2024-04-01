@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { Suspense, useState } from "react";
 import Banners from "../../components/Banners";
 import { Datas, ListData } from "../../components/Data";
 import { Project } from "../../components/Project";
@@ -9,7 +9,7 @@ import { useEffect } from "react";
 import NavTop from "../../components/NavTop";
 import Why from "../../components/Why";
 import NavBottom from "../../components/NavBottom";
-import Head from "next/head";
+import Loading from "./feed/loading";
 
 export default function page() {
   useEffect(() => {
@@ -19,18 +19,13 @@ export default function page() {
 
   return (
     <>
-      <Head>
-        <link rel="canonical" href="https://yogafebriatala.com" />
-        <meta
-          property="og:image"
-          content="https://yogafebriatala.com/img/cover-share.png"
-        />
-      </Head>
       <NavTop />
-      <Banners />
-      <Project list={Data} />
-      <Why />
-      <NavBottom />
+      <Suspense fallback={<Loading />}>
+        <Banners />
+        <Project list={Data} />
+        <Why />
+        <NavBottom />
+      </Suspense>
     </>
   );
 }
