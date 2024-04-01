@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
 
 const poppins = Poppins({
   weight: ["300", "400", "500", "600", "700", "800", "900"],
@@ -70,6 +71,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Script
+        strategy="afterInteractive"
+        src="https://www.googletagmanager.com/gtag/js?id=G-BG5T0LPHN3"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {` window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-BG5T0LPHN3');
+         `}
+      </Script>
       <body className={`${poppins.className} bg-bg-image`}>{children}</body>
     </html>
   );
