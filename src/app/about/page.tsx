@@ -99,11 +99,16 @@ export default function page() {
             <Image src={"/icon/node.svg"} alt="node" width={40} height={90} />
             <Image src={"/icon/next.svg"} alt="next" width={40} height={90} />
             <Image src={"/icon/figma.svg"} alt="figma" width={40} height={90} />
-            <Image src={"/icon/ai.png"} alt="ai" width={40} height={90} />
-            <Image src={"/icon/ps.png"} alt="js" width={40} height={90} />
-            <Image src={"/icon/github.svg"} alt="js" width={40} height={90} />
-            <Image src={"/icon/git.svg"} alt="js" width={40} height={90} />
-            <Image src={"/icon/redux.svg"} alt="js" width={40} height={90} />
+            <Image src={"/icon/ai.svg"} alt="ai" width={40} height={90} />
+            <Image src={"/icon/ps.svg"} alt="ps" width={40} height={90} />
+            <Image
+              src={"/icon/github.svg"}
+              alt="github"
+              width={40}
+              height={90}
+            />
+            <Image src={"/icon/git.svg"} alt="git" width={40} height={90} />
+            <Image src={"/icon/redux.svg"} alt="redux" width={40} height={90} />
           </div>
         </div>
       </div>

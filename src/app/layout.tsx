@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import Head from "next/head";
 
 const poppins = Poppins({
   weight: ["300", "400", "500", "600", "700", "800", "900"],
@@ -60,6 +61,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        <link rel="canonical" href="https://yogafebriatala.com" />
+        <meta
+          property="og:image"
+          content="https://yogafebriatala.com/img/cover-share.png"
+        />
+      </Head>
       <body className={`${poppins.className} bg-bg-image`}>{children}</body>
     </html>
   );
