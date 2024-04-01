@@ -5,12 +5,12 @@ export default function Why() {
     <>
       <div className="sm:container mb-24 mx-auto px-2">
         <div className="lg:px-20 pt-14  ">
-          <h1
+          <h2
             className="text-white text-center font-semibold text-3xl"
             data-aos="fade-up"
           >
             Why Hire Me?
-          </h1>
+          </h2>
           <div className="grid md:grid-cols-12 pt-10 gap-10 ">
             <div
               className="col-span-4 text-center"

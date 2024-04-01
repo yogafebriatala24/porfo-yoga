@@ -8,7 +8,11 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Yoga Febriatala | Personal Website",
+  title: {
+    default: "Yoga Febriatala | Personal Website",
+    template: "%s - Yoga Febriatala",
+  },
+
   description:
     "The nature of a young man is freedom, freedom of ideas, creativity and work for the homeland",
   keywords: "Yoga Febriatala",

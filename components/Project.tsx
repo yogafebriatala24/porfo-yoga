@@ -25,9 +25,9 @@ export const Project = (props: Props) => {
     <>
       <div className="sm:container lg:pt-32 pt-10">
         <div className="lg:px-20 px-4 mx-auto" data-aos="fade-up">
-          <h1 className="text-white font-bold text-4xl max-md:text-2xl">
+          <h2 className="text-white font-bold text-4xl max-md:text-2xl">
             My Project
-          </h1>
+          </h2>
 
           <hr className="w-48 bg-white mt-1 md:mb-12 mb-5 mx-0" />
           {list.map((datas) => {
