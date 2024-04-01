@@ -6,13 +6,7 @@ export default function NavBottom() {
     <>
       <div className="md:hidden fixed bottom-0 left-0 z-50 w-full h-16 rounded-t-lg shadow-secondary shadow bg-gelap flex justify-between text-center mx-auto px-4 py-3">
         <Link href={"/about"}>
-          <Image
-            src={"/img/logo.png"}
-            alt="logo"
-            width={43}
-            height={24}
-            quality={100}
-          />
+          <Image src={"/img/logo.png"} alt="logo" width={43} height={24} />
         </Link>
 
         <Link href={"/"}>
@@ -21,7 +15,6 @@ export default function NavBottom() {
             alt="stack"
             width={43}
             height={24}
-            quality={100}
             className="mx-auto"
           />
         </Link>
@@ -32,7 +25,6 @@ export default function NavBottom() {
             alt="wa"
             width={43}
             height={24}
-            quality={100}
             className="mx-auto"
           />
         </Link>
