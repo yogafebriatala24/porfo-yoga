@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   ],
   icons: {
     icon: "/icon/favicon.ico",
-    apple: "/icon/apple.png",
+    apple: "/apple-icon.png",
   },
   openGraph: {
     title: "Yoga Febriatala | Personal Website",
