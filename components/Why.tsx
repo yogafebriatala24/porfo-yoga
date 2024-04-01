@@ -5,12 +5,12 @@ export default function Why() {
     <>
       <div className="sm:container mb-24 mx-auto px-2">
         <div className="lg:px-20 pt-14  ">
-          <p
+          <h1
             className="text-white text-center font-semibold text-3xl"
             data-aos="fade-up"
           >
             Why Hire Me?
-          </p>
+          </h1>
           <div className="grid md:grid-cols-12 pt-10 gap-10 ">
             <div
               className="col-span-4 text-center"
@@ -25,9 +25,9 @@ export default function Why() {
                   alt="comm"
                 />
               </div>
-              <div className=" text-white font-bold text-xl pt-6 text-center">
+              <h3 className=" text-white font-bold text-xl pt-6 text-center">
                 Communicative
-              </div>
+              </h3>
 
               <div className="pt-3 text-secondary font-medium text-sm text-center">
                 I can communicate well, to explain my ideas and work. I
@@ -48,9 +48,9 @@ export default function Why() {
                   alt="coll"
                 />
               </div>
-              <div className="text-white font-bold text-xl pt-6 justify-center text-center">
+              <h3 className="text-white font-bold text-xl pt-6 justify-center text-center">
                 Collaboration
-              </div>
+              </h3>
 
               <div className="pt-3 text-secondary font-medium text-sm text-center">
                 Collaboration is very important at this time, I am able to
@@ -70,9 +70,9 @@ export default function Why() {
                   alt="time"
                 />
               </div>
-              <div className=" text-white font-bold text-xl pt-6 text-center">
+              <h3 className=" text-white font-bold text-xl pt-6 text-center">
                 On Time
-              </div>
+              </h3>
 
               <div className="pt-3 text-secondary font-medium text-sm text-center m">
                 I am able to work regularly, professionally, and on time to

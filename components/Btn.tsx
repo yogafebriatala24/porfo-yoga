@@ -5,9 +5,9 @@ export default function Btn() {
     <>
       <div className="bg-gelap grid md:grid-cols-12 h-32 md:h-24 gap-3 md:px-5 place-content-center rounded-md">
         <div className="md:col-span-6 max-md:text-center">
-          <div className="text-white font-bold text-xl">
+          <h2 className="text-white font-bold text-xl">
             Interested working with me?
-          </div>
+          </h2>
         </div>
         <div className="md:col-span-6 md:ms-auto max-md:text-center pt-1">
           <Link

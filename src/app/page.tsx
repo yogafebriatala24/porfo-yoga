@@ -9,6 +9,7 @@ import { useEffect } from "react";
 import NavTop from "../../components/NavTop";
 import Why from "../../components/Why";
 import NavBottom from "../../components/NavBottom";
+import Head from "next/head";
 
 export default function page() {
   useEffect(() => {
@@ -18,6 +19,13 @@ export default function page() {
 
   return (
     <>
+      <Head>
+        <link rel="canonical" href="https://yogafebriatala.com" />
+        <meta
+          property="og:image"
+          content="https://yogafebriatala.com/img/cover-share.png"
+        />
+      </Head>
       <NavTop />
       <Banners />
       <Project list={Data} />

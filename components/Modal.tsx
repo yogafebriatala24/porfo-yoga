@@ -31,18 +31,18 @@ export const Modal = (props: Props) => {
               />
             </div>
             <div className="col-span-5 md:ms-4 ms-2 ">
-              <div className="text-white font-semibold md:text-2xl text-lg md:mb-4 mb-2 ">
+              <h1 className="text-white font-semibold md:text-2xl text-lg md:mb-4 mb-2 ">
                 {data.name}
-              </div>
+              </h1>
               <p className="md:text-base text-sm text-secondary">
                 {data.desc1}
               </p>
               <p className="md:text-base text-sm text-secondary lg:mt-4 mt-2">
                 {data.desc2}
               </p>
-              <div className="text-white font-semibold md:text-2xl text-lg md:mt-4 mt-2 ">
+              <h2 className="text-white font-semibold md:text-2xl text-lg md:mt-4 mt-2 ">
                 Tools
-              </div>
+              </h2>
               <div className="flex gap-5 mt-4 max-md:hidden">
                 <Image
                   width={72}

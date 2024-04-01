@@ -20,12 +20,12 @@ export default function Banners() {
         <div className="flex flex-wrap lg:px-20" data-aos="fade-up">
           <div className="self-center lg:w-1/2 w-full mx-auto px-2">
             <div className="max-md:text-center">
-              <div className="text-green-600 font-bold text-4xl max-md:text-2xl">
+              <h1 className="text-green-600 font-bold text-4xl max-md:text-2xl">
                 Hi, i'm Yoga Febriatala
-              </div>
-              <div className="text-white text-2xl mt-4  mb-4 font-semibold max-md:text-xl">
+              </h1>
+              <h2 className="text-white text-2xl mt-4  mb-4 font-semibold max-md:text-xl">
                 Full Stack Developer
-              </div>
+              </h2>
               <p className="text-secondary font-normal text-lg mb-10 leading-9">
                 I'm from Bogor, Indonesia and i have been interested in web
                 development since 2017. I started working as a web developer at{" "}

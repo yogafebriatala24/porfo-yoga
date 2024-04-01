@@ -31,7 +31,7 @@ export default function page() {
             quality={100}
             alt="Yoga"
           />
-          <div className="text-white text-2xl font-bold">About Me</div>
+          <h1 className="text-white text-2xl font-bold">About Me</h1>
           <p className="text-secondary font-normal mt-4">
             Hello, my name is Yoga Febriatala. I am an informatics engineering
             student specializing in website development. Besides being active in
