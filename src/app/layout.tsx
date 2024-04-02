@@ -72,8 +72,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <GoogleTagManager gtmId={`${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
       <body className={`${poppins.className} bg-bg-image`}>{children}</body>
+      <GoogleTagManager gtmId={`${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
       <GoogleAnalytics gaId={`${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
     </html>
   );
