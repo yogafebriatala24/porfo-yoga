@@ -2,6 +2,7 @@
 import Image from "next/image";
 import NavTop from "../../../components/NavTop";
 import NavBottom from "../../../components/NavBottom";
+import Link from "next/link";
 
 export default function page() {
   return (
@@ -37,6 +38,27 @@ export default function page() {
             regions. Have more interest in technological developments, also have
             good skills in leadership, communication, and public speaking.
           </p>
+          <div className="flex gap-10 pt-10 justify-center items-center md:hidden">
+            <Link href={"https://instagram.com/yogafebriatala"}>
+              <Image src={"./icon/ig.svg"} alt="ig" width={40} height={40} />
+            </Link>
+            <Link href={"https://github.com/yogafebriatala24"}>
+              <Image
+                src={"./icon/github.svg"}
+                alt="github"
+                width={40}
+                height={40}
+              />
+            </Link>
+            <Link href={"https://www.linkedin.com/in/yoga-febriatala/"}>
+              <Image
+                src={"./icon/linkedin.svg"}
+                alt="linkedin"
+                width={40}
+                height={40}
+              />
+            </Link>
+          </div>
           <div className="flex gap-2">
             <div className="bg-gelap border border-white hover:bg-transparent rounded-md text-white font-semibold w-60 h-40 mt-10 mx-auto">
               <div className="shadow py-6">

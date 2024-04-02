@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
-import Script from "next/script";
-import Head from "next/head";
+import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 
 const poppins = Poppins({
   weight: ["300", "400", "500", "600", "700", "800", "900"],
@@ -12,7 +11,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   metadataBase: new URL("https://yogafebriatala.com"),
   alternates: {
-    canonical: "/",
+    canonical: "https://yogafebriatala.com",
     languages: {
       "en-US": "/en-US",
     },
@@ -22,14 +21,13 @@ export const metadata: Metadata = {
     template: "%s - Yoga Febriatala",
   },
 
-  description:
-    "Hi, i'm Yoga Febriatala Fullstack Developer. I'm from Bogor Indonesia, i have experience more than 2 years",
+  description: "Hi everyone, I'm Yoga Febriatala, a Full Stack Developer.",
   keywords: "Yoga Febriatala",
 
   authors: [
     {
       name: "Yoga Febriatala",
-      url: "/",
+      url: "https://yogafebriatala.com",
     },
   ],
   icons: {
@@ -38,22 +36,24 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Yoga Febriatala | Personal Website",
-    description:
-      "Hi, i'm Yoga Febriatala Fullstack Developer. I'm from Bogor Indonesia, i have experience more than 2 years ",
+    description: "Hi everyone, I'm Yoga Febriatala, a Full Stack Developer.",
+    url: "https://yogafebriatala.com",
     siteName: "Yoga Febriatala",
     images: [
       {
-        url: "/apple-icon.png",
+        url: "/logo.png",
         alt: "yoga",
       },
     ],
+    type: "website",
+    locale: "en-US",
   },
   twitter: {
     card: "summary_large_image",
     title: "Yoga Febriatala | Personal Website",
-    description:
-      "The nature of a young man is freedom, freedom of ideas, creativity and work for the homeland",
+    description: "Hi everyone, I'm Yoga Febriatala, a Full Stack Developer.",
     creator: "Yoga Febriatala",
+
     images: [
       {
         url: "/img/cover-share.png",
@@ -72,20 +72,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
-        <Script
-          strategy="afterInteractive"
-          src="https://www.googletagmanager.com/gtag/js?id=G-BG5T0LPHN3"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {` window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-BG5T0LPHN3');
-         `}
-        </Script>
-      </Head>
+      <GoogleTagManager gtmId={`${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
       <body className={`${poppins.className} bg-bg-image`}>{children}</body>
+      <GoogleAnalytics gaId={`${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
     </html>
   );
 }

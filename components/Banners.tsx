@@ -17,40 +17,40 @@ export default function Banners() {
           />
         </div>
         <div className="flex flex-wrap lg:px-20" data-aos="fade-up">
-          <div className="self-center lg:w-1/2 w-full mx-auto px-2">
+          <div className="self-center md:w-1/2 w-full mx-auto px-2">
             <div className="max-md:text-center">
               <h1 className="text-green-600 font-bold text-4xl max-md:text-2xl">
-                Hi, i'm Yoga Febriatala
+                Hi, I'm Yoga Febriatala
               </h1>
-              <h2 className="text-white text-2xl mt-4  mb-4 font-semibold max-md:text-xl">
+              <h2 className="text-white text-2xl mt-4 mb-4 font-semibold max-md:text-xl">
                 Full Stack Developer
               </h2>
               <p className="text-secondary font-normal text-lg mb-10 leading-9">
-                I'm from Bogor, Indonesia and i have been interested in web
+                I'm from Bogor, Indonesia and I have been interested in web
                 development since 2017. I started working as a web developer at{" "}
                 <span className="underline">
                   <a href="#" className="text-white">
                     BMBJ
                   </a>
                 </span>{" "}
-                in 2021 and
+                in 2021 and{" "}
                 <span className="underline">
-                  {" "}
                   <a href="#" className="text-white">
                     Jurnalistika
                   </a>{" "}
                 </span>
                 in 2022. Apart from that, I have also built the NCTech web
-                development team since 2023 and currently I looking forward to
-                collaborating with you!
+                development team since 2023 and currently I am looking forward
+                to collaborating with you!
               </p>
               <Link
                 href="https://drive.google.com/file/d/14t4c_IymColqATpqSsS8Nrm_t9E-VgzS/view?usp=sharing"
-                className="text-base text-center no-underline font-medium bg-green-600 hover:bg-green-500 py-4 px-8 rounded-md text-white lg:hidden"
+                className="text-base text-center no-underline font-medium bg-green-600 hover:bg-green-500 py-4 px-8 rounded-md text-white md:hidden"
               >
                 Download CV
               </Link>
-              <div className="flex items-center gap-5 max-lg:hidden">
+
+              <div className="flex items-center gap-5 max-md:hidden">
                 <Link
                   href="mailto:febriatala24@gmail.com"
                   className="text-base no-underline font-medium bg-green-600 hover:bg-green-500 py-3 px-8 rounded-md text-white"
@@ -58,9 +58,7 @@ export default function Banners() {
                   Email Me
                 </Link>
                 <Link
-                  href={
-                    "https://drive.google.com/file/d/14t4c_IymColqATpqSsS8Nrm_t9E-VgzS/view?usp=sharing"
-                  }
+                  href="https://drive.google.com/file/d/14t4c_IymColqATpqSsS8Nrm_t9E-VgzS/view?usp=sharing"
                   className="font-medium text-white text-base flex gap-3 hover:text-secondary"
                 >
                   <Image
@@ -74,8 +72,8 @@ export default function Banners() {
               </div>
             </div>
           </div>
-          <div className="lg:w-1/2 self-end text-right">
-            <div className="mt-10 max-lg:hidden">
+          <div className="md:w-1/2 self-end text-right">
+            <div className="mt-10 max-md:hidden">
               <Image
                 className="ms-auto"
                 src={"/img/profile.png"}

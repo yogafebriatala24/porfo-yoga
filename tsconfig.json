@@ -24,7 +24,8 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "data.js"
+    "data.js",
+    "src/app/404.js"
   ],
   "exclude": ["node_modules"]
 }

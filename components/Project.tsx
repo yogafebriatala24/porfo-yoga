@@ -18,9 +18,14 @@ export const Project = (props: Props) => {
     setItemModal(data);
     setShowModal(true);
   };
+
   const closeModal = () => {
     setShowModal(false);
   };
+
+  // Memotong array list menjadi 4 item pertama
+  const limitedList = list.slice(0, 4);
+
   return (
     <>
       <div className="sm:container lg:pt-32 pt-10">
@@ -28,9 +33,8 @@ export const Project = (props: Props) => {
           <h2 className="text-white font-bold text-4xl max-md:text-2xl">
             My Project
           </h2>
-
           <hr className="w-48 bg-white mt-1 md:mb-12 mb-5 mx-0" />
-          {list.map((datas) => {
+          {limitedList.map((datas) => {
             return (
               <div
                 className="  flex flex-wrap"
@@ -48,7 +52,6 @@ export const Project = (props: Props) => {
                       className="rounded-md"
                       onClick={() => viewModal(datas)}
                     />
-
                     <p className="text-secondary mt-3 mb-3">{datas.title}</p>
                     <div className="flex gap-2">
                       <Link
