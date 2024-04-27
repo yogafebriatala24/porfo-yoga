@@ -46,7 +46,7 @@ export const Project = (props: Props) => {
                     <Image
                       src={datas.image}
                       width={1200}
-                      height={630}
+                      height={400}
                       loading="lazy"
                       alt={"project"}
                       className="rounded-md"

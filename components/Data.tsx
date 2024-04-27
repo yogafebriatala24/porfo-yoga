@@ -7,7 +7,8 @@ export interface Datas {
     | "/img/Food.png"
     | "/img/Kuak.pmg"
     | "/img/travel.png"
-    | "/img/game.png";
+    | "/img/game.png"
+    | "/img/Stay.png";
   desc1: string;
   desc2: string;
   logo1: "/icon/figma.svg" | "/icon/Laravel.svg" | "/icon/ts.svg";
@@ -79,6 +80,22 @@ export const ListData: Datas[] = [
   },
   {
     id: 4,
+    title: "Create a UI design for a Staycation web app using Figma.",
+    name: "Staycation",
+    image: "/img/Stay.png",
+    desc1:
+      "This responsive design for Staycation Web App. Staycation is a website that provides features for online hotel booking throughout Indonesia",
+    desc2:
+      "In creating the UI design for this Staycation Website, I used several tools, including:",
+    logo1: "/icon/figma.svg",
+    logo2: "/icon/ai.svg",
+    logo3: "/icon/ps.svg",
+    btn1: "Show Prototype",
+    btn2: "Details",
+    btnlink: "#",
+  },
+  {
+    id: 5,
     title: "Create an travel website using Laravel.",
     name: "Travel",
     image: "/img/travel.png",
